@@ -1,0 +1,272 @@
+.about {
+    margin-top: 100px;
+    background-color: black;
+    color: darkgray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.about-topic-section {
+    font-size: 5vw;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 64vw;
+    font-size: 2.3vw;
+    font-family: Arial, sans-serif;
+}
+
+.download-cv-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.about-name {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.about {*/
+/*}*/
+
+/*.about-section {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    width: fit-content;*/
+/*    height: fit-content;*/
+/*    margin: auto;*/
+/*}*/
+
+/*.about-topic-section {*/
+/*    margin: auto;*/
+/*    font-size: 4em;*/
+/*    position: absolute;*/
+/*    top: 103px;*/
+/*    color: white;*/
+/*    font-family: Arial, sans-serif;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.about-topic-section > label{*/
+/*    margin-top: 78px;*/
+/*    color: white;*/
+/*    font-family: "Urbanist", sans-serif;*/
+/*    font-optical-sizing: auto;*/
+/*    font-weight: 600;*/
+/*    font-style: normal;*/
+/*    font-size: 60px;*/
+/*    margin-bottom: -20px;*/
+/*}*/
+
+
+/*.about-name-section {*/
+/*    margin-left: 250px;*/
+/*    top: 282px;*/
+/*    width: 1000px;*/
+/*    display: grid;*/
+/*    position: relative;*/
+/*    align-items: start;*/
+/*    justify-items: start;*/
+/*}*/
+
+/*#about-name {*/
+/*    color: white;*/
+/*    font-family: "Vazirmatn", sans-serif;*/
+/*    font-optical-sizing: auto;*/
+/*    font-weight: 500;*/
+/*    font-style: normal;*/
+/*    font-size: 57px;*/
+/*    line-height: 1;*/
+/*}*/
+/*#about-name-my {*/
+/*    color: white;*/
+/*    font-family: "Vazirmatn", sans-serif;*/
+/*    font-optical-sizing: auto;*/
+/*    font-weight: 500;*/
+/*    font-style: normal;*/
+
+/*    font-size: 45px;*/
+/*    line-height: 1;*/
+/*}*/
+
+/*.about-name-section p {*/
+/*    color: darkgray;*/
+/*    margin-top: 19px;*/
+/*    margin-bottom: 10px;*/
+/*    width: 828px;*/
+/*    text-align: left;*/
+/*    font-size: 25px;*/
+/*    font-family: "Apple Symbols";*/
+/*}*/
+
+/*.download-cv-button {*/
+
+/*}*/
+
+/*#button-cv {*/
+/*    border-radius: 30px;*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*    padding: 15px 47px;*/
+/*    font-size: 1.5em;*/
+/*    border: none;*/
+/*    left: 616px;*/
+/*    transition: background-color 0.3s ease;*/
+/*    position: absolute;*/
+/*    top: 287px;*/
+/*}*/
+
+/*@media all and (max-width: 1024px) {*/
+/*    .about {*/
+/*        width: 100vw;*/
+/*        height: 100vh;*/
+/*        max-height: 100vh;*/
+/*        min-height: 700px;*/
+/*        !*background-color: yellow;*!*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        position: relative;*/
+/*    }*/
+/*    .about-name-section {*/
+/*        margin-left: 105px;*/
+/*        top: 124px;*/
+/*        width: 1092px;*/
+/*    }*/
+/*    .about-main-content-section {*/
+/*        top: 0;*/
+/*        bottom: 0;*/
+/*        margin: auto;*/
+/*        height: 600px;*/
+/*        width: 1000px;*/
+/*        position: absolute;*/
+/*    }*/
+
+/*    .about-topic-section {*/
+/*        margin-right: 163px;*/
+/*        position: absolute;*/
+/*    }*/
+
+/*    .about-topic-section > label{*/
+/*        margin: auto;*/
+/*    }*/
+
+/*    #about-name {*/
+/*        margin-top: -102px;*/
+/*    }*/
+/*    #about-name-my {*/
+/*        margin-top: -63px;*/
+/*    }*/
+
+/*    #button-cv {*/
+/*        left: 588px;*/
+/*        top: 201px;*/
+/*    }*/
+/*}*/
+
+/*@media all and (max-width: 768px) {*/
+/*    .about {*/
+/*    }*/
+
+/*    .about-name-section {*/
+/*        margin: auto;*/
+/*        top: 89px;*/
+/*        width: 90%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .about-topic-section {*/
+/*        margin: 0;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    #button-cv {*/
+/*        left: 50%;*/
+/*        transform: translateX(-50%);*/
+/*        top: 192px;*/
+/*    }*/
+
+/*    .about-name-section p {*/
+/*        width: 100%;*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*    #about-name {*/
+/*        font-size: 47px;*/
+/*        margin: auto;*/
+/*        margin-top: -134px;*/
+/*    }*/
+
+/*    #about-name-my {*/
+/*        font-size: 35px;*/
+/*        margin: auto;*/
+/*        margin-top: -101px;*/
+/*    }*/
+/*}*/
+
+/*@media all and (max-width: 435px) {*/
+/*    .about {*/
+/*        width: 261.1vw;*/
+/*        height: auto;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        position: relative;*/
+/*        padding: 20px;*/
+/*    }*/
+
+/*    .about-name-section p {*/
+/*        margin: auto;*/
+/*        width: 81%;*/
+/*        font-size: 29px;*/
+/*    }*/
+
+/*    #button-cv {*/
+/*        left: 50%;*/
+/*        transform: translateX(-50%);*/
+/*        top: 240px;*/
+/*    }*/
+/*}*/
