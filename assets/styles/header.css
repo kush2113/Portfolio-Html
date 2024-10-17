@@ -6,23 +6,72 @@
     color: white;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     position: fixed;
     margin-top: -50px;
+
 }
 
-.header-nav-links {
+.nav-container .header-nav-links {
     font-family: "Urbanist", sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 53vw;
-    font-size: 1vw;
+    width: 71vw;
+    font-size: 1.5vw;
     margin-right: 57px;
     align-items: center;
 }
 
+.header-nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 18px;
+}
+
+ .header-nav-links a{
+        position: relative;
+        font-size: 1.2rem;
+        color: white;
+        margin: 0 20px;
+        text-decoration: none;
+        font-weight: 550;
+        transition: 0.3s linear;
+}
+
+ .header-nav-links a:before{
+    position: absolute;
+    content: "";
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: green;
+    transition: 0.2s linear;
+}
+
+ .header-nav-links a:hover::before{
+    width: 100%;
+}
+
+ .header-nav-links a:hover{
+    color: green;
+}
 
 
+.name span{
+    color: green;
+    text-shadow: 0 0 10px green;
+}
+
+.name {
+    margin-left: 26px;
+    margin-top: auto;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
 
 
 
