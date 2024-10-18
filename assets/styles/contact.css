@@ -1,0 +1,53 @@
+.contact {
+    background: black;
+}
+
+.contact-section-name {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 4em;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+form .input-box input,
+form textarea {
+    background: rgb(0, 0, 0);
+    border: 2px solid green;
+    padding: 2.5em;
+    border-radius: 28px;
+    margin: 1.5em 26px;
+    display: flex;
+
+}
+
+
+@media all and (max-width: 768px){
+    .contact-section-name {
+        font-size: 8vw;
+        font-family: Arial, sans-serif;
+    }
+}
+
+@media all and (max-width: 480px){
+    .contact-section-name {
+        font-size: 12vw;
+        font-family: Arial, sans-serif;
+    }
+}

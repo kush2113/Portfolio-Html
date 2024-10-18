@@ -16,6 +16,7 @@
 }
 
 .about-section {
+    margin-top: 73px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -34,7 +35,12 @@
     color: white;
 }
 
-
+@media all and (max-width: 768px){
+    .about-topic-section {
+        font-size: 8vw;
+        font-family: Arial, sans-serif;
+    }
+}
 
 
 

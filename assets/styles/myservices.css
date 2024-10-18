@@ -1,24 +1,26 @@
-.main6 {
-
-    background: slategray;
+.services {
+    background: black;
     margin-top: -35px;
 }
 
-#big {
+.services-section {
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.main6>div>h1{
-    text-align: center;
+.services-section-name{
+    margin-top: 50px;
     color: white;
-    font-size: 50px;
-    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 4em;
 }
 
 
-#big>div {
+.services-box {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
@@ -30,6 +32,26 @@
     min-height: 300px;
     max-height: 400px;
     margin: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.services-box:hover{
+    background: green;
+    box-shadow: green 0 0 19px, 0 0 50px green;
+    transform: scale(1.03);
 }
 
 
+@media all and (max-width: 768px){
+    .services-section-name {
+        font-size: 8vw;
+        font-family: Arial, sans-serif;
+    }
+}
+
+@media all and (max-width: 480px){
+    .services-section-name {
+        font-size: 12vw;
+        font-family: Arial, sans-serif;
+    }
+}

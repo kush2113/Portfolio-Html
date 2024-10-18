@@ -7,19 +7,17 @@
     <meta name="author" content="ijse">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/styles/normalize.css">
-<!--    <link rel="stylesheet" href="/assets/styles/home.css">-->
-<!--    <link rel="stylesheet" href="/assets/styles/header.css">-->
-<!--    <link rel="stylesheet" href="/assets/styles/footer.css">-->
+    <link rel="stylesheet" href="/assets/styles/header.css">
+    <link rel="stylesheet" href="/assets/styles/home.css">
+    <link rel="stylesheet" href="/assets/styles/footer.css">
     <link rel="stylesheet" href="/assets/styles/about.css">
     <link rel="stylesheet" href="/assets/styles/education.css">
-<!--    <link rel="stylesheet" href="/assets/styles/assignment.css">-->
-<!--    <link rel="stylesheet" href="/assets/styles/skills.css">-->
-<!--    <link rel="stylesheet" href="/assets/styles/project.css">-->
-<!--    <link rel="stylesheet" href="/assets/styles/myservices.css">-->
-<!--    <link rel="stylesheet" href="/assets/styles/gallery.css">-->
+    <link rel="stylesheet" href="/assets/styles/assignment.css">
+    <link rel="stylesheet" href="/assets/styles/skills.css">
+    <link rel="stylesheet" href="/assets/styles/project.css">
+    <link rel="stylesheet" href="/assets/styles/myservices.css">
+    <link rel="stylesheet" href="/assets/styles/contact.css">
 
-    <link rel="stylesheet" href="/assets/styles/home-02.css">
-    <link rel="stylesheet" href="/assets/styles/header.css">
 
 
 
@@ -40,6 +38,7 @@
 </head>
 <body>
 
+<!--  Header & Navigation_Bar-->
 <header>
     <nav class="header-navigation-bar">
 <!--        <div class="nav-container">-->
@@ -54,14 +53,27 @@
                 <div class="link"><a>Skills</a></div>
                 <div class="link"><a>Projects</a></div>
                 <div class="link"><a>My Service</a></div>
-                <div class="link"><a>Gallery</a></div>
                 <div class="link"><a>Contact Me</a></div>
             </div>
 <!--        </div>-->
-    </nav>
+             <i class="fa-solid fa-bars hamburg"></i>
+            <div class="dropdown">
+                 <div class="menu-links">
+                     <a>Home</a>
+                     <a>About</a>
+                     <a>Education</a>
+                     <a>Assignment</a>
+                     <a>Skills</a>
+                     <a>Projects</a>
+                     <a>My Service</a>
+                     <a>Contact Me</a>
+             <i class="fa-solid fa-xmark cancel"></i>
+                 </div>
+            </div>
+      </nav>
 </header>
 
-
+<!--  Hero section-->
 <main id="hero-section">
     <section id="home-section">
         <div class="image">
@@ -91,7 +103,7 @@
 </main>
 
 
-<!--   About section-->
+<!--  About section-->
 <main class="about">
     <div class="about-topic-section">About me</div>
     <section class="about-section">
@@ -114,11 +126,9 @@
 </main>
 
 
-<!--       education section-->
+<!--  education section-->
 <main class="education">
-<!--    <div class="education-section-name">-->
         <h1 id="education-section-name">Education</h1>
-<!--    </div>-->
 
 <section id="education-section" >
 
@@ -141,139 +151,170 @@
 </main>
 
 
+<!--  Assignment section-->
+<main class="assignment-page" id="assignments-page">
+         <div  class="assignment-section-name">Assignments</div>
+
+        <section class="assignment-section">
+            <div class="assignment-card">
+                <p class="assignment-title">Case 01</p>
+                <p class="assignment-title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eligendi eos et fuga ipsam, molestiae natus officiis optio perspiciatis quia quisquam quo rem rerum, similique sint unde velit vitae?</p>
+            </div>
+
+            <div class="assignment-card">
+                <p class="assignment-title">Case 02</p>
+                <p class="assignment-title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eligendi eos et fuga ipsam, molestiae natus officiis optio perspiciatis quia quisquam quo rem rerum, similique sint unde velit vitae?</p>
+
+            </div>
+            <div class="assignment-card">
+                <p class="assignment-title">Case 03</p>
+                <p class="assignment-title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eligendi eos et fuga ipsam, molestiae natus officiis optio perspiciatis quia quisquam quo rem rerum, similique sint unde velit vitae?</p>
+
+            </div>
+        </section>
+
+        <section class="assignment-section">
+            <div class="assignment-card" >
+                <p class="assignment-title">Case 04</p>
+                <p class="assignment-title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eligendi eos et fuga ipsam, molestiae natus officiis optio perspiciatis quia quisquam quo rem rerum, similique sint unde velit vitae?</p>
+            </div>
+            <div class="assignment-card">
+                <p class="assignment-title">Case 05</p>
+                <p class="assignment-title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eligendi eos et fuga ipsam, molestiae natus officiis optio perspiciatis quia quisquam quo rem rerum, similique sint unde velit vitae?</p>
+            </div>
+            <div class="assignment-card">
+                <p class="assignment-title">Case 06</p>
+                <p class="assignment-title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eligendi eos et fuga ipsam, molestiae natus officiis optio perspiciatis quia quisquam quo rem rerum, similique sint unde velit vitae?</p>
+            </div>
+        </section>
+
+        <section class="assignment-section">
+            <div class="assignment-card">
+                <p class="assignment-title">Case 07</p>
+                <p class="assignment-title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eligendi eos et fuga ipsam, molestiae natus officiis optio perspiciatis quia quisquam quo rem rerum, similique sint unde velit vitae?</p>
+            </div>
+            <div class="assignment-card">
+                <p class="assignment-title">Case 08</p>
+                <p class="assignment-title-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At commodi eligendi eos et fuga ipsam, molestiae natus officiis optio perspiciatis quia quisquam quo rem rerum, similique sint unde velit vitae?</p>
+            </div>
+        </section>
+ </main>
 
 
+<!--  Skills Section-->
+<main class="skill">
+    <div  class="skill-section-name">Skills</div>
 
-<!--<main class="main2">-->
-<!--    <div class="overlay-text3" >-->
-<!--        <h1 class="animate__flipOutY">Education</h1>-->
-<!--        <div class="educat" data-aos="zoom-in-right">-->
-<!--            <h3 class="education">I got my basic education from-->
-<!--                St.Mary's College,Mathugama and I have successfully passed G.C.E O/L and G.C.E A/L.</h3>-->
-<!--            <img class="smc" src="/assets/images/img_19.png"  title="SMC" alt="logo" >-->
-<!--        </div>-->
-<!--        <div class="ijse"  >-->
-<!--                        <h3 class="education2">-->
-<!--                            Good understanding of programming languages-->
-<!--                            (Java, Python etc), query languages(MY SQL, HQL),-->
-<!--                            software design tools,-->
-<!--                            UI/UX design tools (Figma) and web designing.-->
-<!--                            Learning about modern software technologies-->
-<!--                            that need to be known more.</h3>-->
-<!--            <img class="logo" src="/assets/images/img_20.png" title="ijse" alt="logo">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</main>-->
+    <section class="skills-section">
 
+        <div class="skill-content">
+            <div class="skills-image">
+                <img class="figma" type="image" src="/assets/images/img.png" alt="image" title="Kushan" width="90px" height="90px" >
+                <div class="skills-title">Figma</div>
+            </div>
+            <div class="skills-image">
+                <img class="figma" type="image" src="/assets/images/img_1.png" alt="image" alt="image" title="Kushan" width="90px" height="90px" >
+                <div class="skills-title">Github</div>
+            </div>
+            <div class="skills-image">
+                <img class="figma" type="image" src="/assets/images/img_2.png" alt="image" title="Kushan" width="90px" height="90px" >
+                <div class="skills-title">Vs Code</div>
+            </div>
+        </div>
 
+        <div class="skill-content">
+            <div class="skills-image">
+                <img class="figma" type="image" src="/assets/images/img_3.png" alt="image" title="Kushan" width="90px" height="90px" >
+                <div class="skills-title">Java</div>
+            </div>
+            <div class="skills-image">
+                <img class="figma" type="image" src="/assets/images/img_4.png" alt="image" title="Kushan" width="90px" height="90px" >
+                <div class="skills-title">MySql</div>
+            </div>
+            <div class="skills-image">
+                <img class="figma" type="image" src="/assets/images/img_5.png" alt="image" title="Kushan" width="90px" height="90px" >
+                <div class="skills-title">HTML</div>
+            </div>
+        </div>
 
-<!--<main class="main3">-->
-<!--    <div class="overlay-text4">-->
-<!--        <h1>Assignment</h1>-->
-<!--        <div class="assignment" >-->
-<!--            <div class="second"></div>-->
-<!--            <div class="second"></div>-->
-<!--            <div class="second"></div>-->
-<!--            <div class="second"></div>-->
-<!--            <div class="second"></div>-->
-<!--            <div class="second"></div>-->
-<!--            <div class="second"></div>-->
-<!--            <div class="second"></div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</main>-->
+    </section>
+</main>
 
-<!--<main class="main4">-->
-<!--    <div class="overlay-text5">-->
-<!--      <h1>Skills</h1>-->
-<!--      <div class="skill">-->
-<!--          <img class="figma" type="image" src="/assets/images/img.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--          <h3 class="figmatext">Figma</h3>-->
-<!--          <img class="git" type="image" src="/assets/images/img_1.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--          <h3 class="gittext">Github</h3>-->
-<!--          <img class="vscode" type="image" src="/assets/images/img_2.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--          <h3 class="vstext">VS code</h3>-->
-<!--      </div>-->
-<!--      <div class="skill2">-->
-<!--          <img class="java" type="image" src="/assets/images/img_3.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--          <h3 class="javatext">Java</h3>-->
-<!--          <img class="mysql" type="image" src="/assets/images/img_4.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--          <h3 class="mysqltext">MySQL</h3>-->
-<!--          <img class="html" type="image" src="/assets/images/img_5.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--          <h3 class="htmltext">HTML</h3>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--</main>-->
+<!--  Project Section-->
+<main class="projects" >
 
-<!--<main class="main5">-->
-<!--    <div class="overlay-text6">-->
-<!--        <h1>Projects</h1>-->
-<!--        <div class="big">-->
-<!--        <div class="p1">-->
-<!--            <div class="small1">-->
-<!--                <img class="ass" type="image" src="/assets/images/img_22.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--                <h4 class="mvc">MVC Architecture Software Project</h4>-->
-<!--            </div>-->
-<!--            <img class="icon" type="image" src="/assets/images/img_23.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--        </div>-->
+    <div class="project-section-name">Project</div>
 
-<!--        <div class="p2">-->
-<!--            <div class="small2">-->
-<!--                <img class="pro2" type="image" src="/assets/images/Screenshot%202.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--                <h4 class="leyer">Layered Architecture Software Project</h4>-->
-<!--            </div>-->
-<!--            <img class="icon2" type="image" src="/assets/images/img_23.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--        </div>-->
+    <section  class="project-section" >
+            <div class="project-card">
+                <img class="project-image" src="assets/images/Screenshot%201.png">
+                <div class="project-name">MVC Architecture Software Project</div>
+                <div class="btn">Review Project</div>
+            </div>
 
+            <div class="project-card">
+                <img class="project-image" src="assets/images/Screenshot%202.png">
+                <div class="project-name">Layered Architecture Software Project</div>
+                <div class="btn">Review Project</div>
+            </div >
 
-<!--        <div class="p3">-->
-<!--            <img class="icon3" type="image" src="/assets/images/img_23.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--        </div>-->
+            <div class="project-card">
+                <img class="project-image" src="assets/images/Screenshot%202.png">
+                <div class="btn">Review Project</div>
+            </div>
+    </section>
+</main>
 
-<!--        <div class="p4">-->
-<!--            <img class="icon4" type="image" src="/assets/images/img_23.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--        </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</main>-->
+<!--  Services Section-->
+<main class="services" >
+    <div class="services-section-name">My Services</div>
 
-<!--<main class="main6" >-->
-<!--    <div >-->
-<!--        <h1>My Services</h1>-->
-<!--    </div>-->
+    <section class="services-section" >
+<!--          <div>-->
+            <div class="services-box">
 
-<!--    <section id="big" >-->
-<!--&lt;!&ndash;          <div>&ndash;&gt;-->
-<!--            <div >-->
+            </div>
 
-<!--            </div>-->
+            <div class="services-box">
 
-<!--            <div >-->
+            </div>
 
-<!--            </div>-->
+            <div class="services-box">
 
-<!--            <div>-->
+            </div>
+<!--          </div>-->
+    </section>
+</main>
 
-<!--            </div>-->
-<!--&lt;!&ndash;          </div>&ndash;&gt;-->
-<!--    </section>-->
-<!--</main>-->
+<!--  Contact Section-->
+<main class="contact">
+    <div class="contact-section-name">Contact Me</div>
+    <section class="contact-section">
+        <form class="contact-form">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="" id=""
+                placeholder="Your Message" cols="30"
+                rows="10"></textarea>
+                <input type="submit"
+                value="Send Message" class="btn">
+            </div>
+
+        </form>
+    </section>
+</main>
 
 
-
-
-
-
-
-
-<!--<main class="main7">-->
-<!--    <div class="overlay-text8">-->
-<!--        <h1>Gallery</h1>-->
-<!--        <div class="big-img">-->
-<!--        <img class="img" type="image" src="/assets/images/img_10.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</main>-->
 
 
 <footer>copyright © 2024 developed by Kushan | All rights reserved</footer>
