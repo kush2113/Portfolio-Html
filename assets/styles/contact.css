@@ -12,22 +12,20 @@
     font-size: 4em;
 }
 
+.input-box2 {
+
+}
+
 .contact-section {
+    padding: 10px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-}
-
-.contact-form {
-    display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
+    justify-content: center;
 }
 
-form .input-box input,
-form textarea {
+.input-filed {
     background: rgb(0, 0, 0);
     box-shadow: 0px 3px 5px 0px green;
     border: 2px solid green;
@@ -35,7 +33,18 @@ form textarea {
     border-radius: 28px;
     margin: 1.5em 26px;
     display: flex;
+}
 
+.message-filed {
+    height: 10em;
+    width: 15em;
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 3px 5px 0px green;
+    border: 2px solid green;
+    padding: 2.5em;
+    border-radius: 28px;
+    margin: 1.5em 26px;
+    display: flex;
 }
 
 .btn-contact {
@@ -43,7 +52,6 @@ form textarea {
     border-radius: 29em;
     width: 157px;
     height: 44px;
-    margin-left: 106px;
     margin-top: 20px;
     transition: 0.2s ;
 }
@@ -53,10 +61,12 @@ form textarea {
     transform: scale(1.02);
 }
 
-/*.input-group {*/
-/*    margin: auto;*/
-/*}*/
-
+.message-btn {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
 @media all and (max-width: 768px){
     .contact-section-name {
@@ -65,24 +75,57 @@ form textarea {
     }
 }
 
-@media all and (max-width: 480px){
+@media all and (max-width: 480px) {
+
     .contact-section-name {
         font-size: 12vw;
         font-family: Arial, sans-serif;
     }
 
-    .input-group-2 {
-        margin: auto;
+    .contact-section {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column
     }
 
+    .input-box {
+        display: contents
+    }
 
-    .btn-contact {
-        background: darkgreen;
-        border-radius: 29em;
-        width: 157px;
-        height: 44px;
-        margin-left: 106px;
-        margin-top: 20px;
-        transition: 0.2s ;
+    .message-filed {
+        width: auto;
+    }
+
+    .message-btn {
+        margin-top: -16px;
     }
 }
+
+
+
+
+
+
+
+
+
+/*<!--<main class="contact">-->*/
+/*<!--    <div class="contact-section-name">Contact Me</div>-->*/
+/*<!--    <section class="contact-section">-->*/
+/*<!--        <input class="input-filed" type="text" placeholder="Full Name">-->*/
+/*<!--        <input class="input-filed" type="email" placeholder="Email">-->*/
+
+/*<!--        <input class="input-filed" type="number" placeholder="Phone Number">-->*/
+/*<!--        <input class="input-filed" type="text" placeholder="Subject">-->*/
+/*<!--    </section>-->*/
+
+/*<!--    <section class="contact-section-2">-->*/
+/*<!--        <div class="input-box2">-->*/
+/*<!--                <textarea class="message-filed" name="" id=""-->*/
+/*<!--                          placeholder="Your Message" cols="30"-->*/
+/*<!--                          rows="10"></textarea>-->*/
+/*<!--            <button  class="btn-contact" value="Send Message">Submit</button>-->*/
+/*<!--        </div>-->*/
+/*<!--    </section>-->*/
+/*<!--</main>-->*/
+
