@@ -30,6 +30,19 @@
     flex-direction: row;
     justify-content: flex-end;
 }
+#button-cv {
+    box-shadow: 0 0px 19px 2px green;
+    background-color: green;
+    transition: 0.2s ease;
+    border-radius: 28px;
+    width: 262px;
+    height: 54px;
+
+}
+#button-cv:hover {
+    box-shadow: red 0 0 2px, 0 0 25px red;
+    transform: scale(1.02);
+}
 
 .about-name {
     color: white;
@@ -42,6 +55,41 @@
     }
 }
 
+@media all and (max-width: 480px){
+    #button-cv {
+        margin-top: 28px;
+        font-size: 3em;
+        display: flex;
+        width: 220px;
+        height: 52px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .about-topic-section {
+        font-size: 12vw;
+        color: white;
+    }
+
+    .about-name {
+        font-size: 2em;
+        display: flex;
+        color: white;
+        flex-wrap: wrap;
+        align-content: space-around;
+        flex-direction: column
+    }
+
+    #about-par {
+        font-size: 1.9em;
+        text-align: center;
+    }
+    .about-name-section {
+        margin-top: -25px;
+    }
+
+}
 
 
 
