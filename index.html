@@ -45,7 +45,14 @@
             <div class="name">
                 Kushan<span>Damitha</span>
             </div>
+
+        <div class="menu-icon-size">
+            <div class="menu-icon" onclick="toggleSidebar()">
+                &#9776; <!-- Unicode for a hamburger icon -->
+            </div>
+        </div>
             <div class="header-nav-links">
+
                 <div class="link"><a >Home</a></div>
                 <div class="link"><a>About</a></div>
                 <div class="link"><a>Education</a></div>
@@ -57,8 +64,9 @@
             </div>
 <!--        </div>-->
              <i class="fa-solid fa-bars hamburg"></i>
-            <div class="dropdown">
+            <div class="dropdown" id="sidebar">
                  <div class="menu-links">
+                     <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
                      <a>Home</a>
                      <a>About</a>
                      <a>Education</a>
@@ -320,6 +328,14 @@
 <script>
     AOS.init();
 </script>
+
+<script>
+    function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        sidebar.classList.toggle('active'); // Toggle the 'active' class
+    }
+</script>
+
 </body>
 </html>
 
