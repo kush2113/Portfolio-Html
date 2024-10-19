@@ -57,12 +57,12 @@
 
 @media all and (max-width: 480px){
     #button-cv {
-        margin-top: 28px;
+        /*margin-top: 28px;*/
         font-size: 3em;
         display: flex;
         width: 220px;
         height: 52px;
-        flex-direction: column;
+        /*flex-direction: column;*/
         justify-content: space-around;
         align-items: center
     }

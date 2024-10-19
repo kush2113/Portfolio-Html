@@ -53,13 +53,10 @@ form textarea {
     transform: scale(1.02);
 }
 
-.input-group {
-    margin: auto;
-}
+/*.input-group {*/
+/*    margin: auto;*/
+/*}*/
 
-.input-group-2 {
-    margin: auto;
-}
 
 @media all and (max-width: 768px){
     .contact-section-name {
@@ -74,5 +71,18 @@ form textarea {
         font-family: Arial, sans-serif;
     }
 
+    .input-group-2 {
+        margin: auto;
+    }
 
+
+    .btn-contact {
+        background: darkgreen;
+        border-radius: 29em;
+        width: 157px;
+        height: 44px;
+        margin-left: 106px;
+        margin-top: 20px;
+        transition: 0.2s ;
+    }
 }
