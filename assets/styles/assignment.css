@@ -1,4 +1,4 @@
-.assignment-page{
+.assignment{
     background-color: black;
 }
 
@@ -19,19 +19,64 @@
     justify-content: center;
 }
 
+
 .assignment-card {
     font-family: "Plus Jakarta Sans", sans-serif;
     width: 296px;
-    height: 385px;
+    height: 200px;
     background-color: black;
-    box-shadow: 0px -1px 7px 1px rgb(95, 96, 96);
+    box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px #0e7910;
     border-radius: 51px;
+    border: 5px solid #0e7910;
     margin: 50px 20px 0 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    transition: 0.5s;
 }
+
+
+.assignment-card:hover {
+    height: 300px;
+}
+
+.lll {
+    display: flex;
+    text-align: center;
+    height: 60px;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.content-as {
+    text-align: center;
+    display: flex;
+    color: #999;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 8px;
+    transform: translateY(-80px) scale(0);
+    transition: all 0.5s;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.assignment-card:hover .content-as {
+    transform: translateY(0) scale(1)
+}
+
+
 
 .assignment-title {
     margin-top: -219px;
@@ -54,6 +99,9 @@
         font-family: Arial, sans-serif;
     }
 }
+
+
+
 
 @media all and (max-width: 480px){
     .assignment-section-name {
