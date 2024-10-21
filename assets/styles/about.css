@@ -89,6 +89,13 @@
         margin-top: -25px;
     }
 
+    .download-cv-button {
+        margin: auto;
+    }
+
+    #button-cv {
+        font-size: 2em;
+    }
 }
 
 
