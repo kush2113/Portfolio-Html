@@ -231,6 +231,10 @@
         display: flex;
     }
 
+    .card {
+        margin: auto;
+    }
+
     .image {
         overflow: hidden;
         width: 210px;
