@@ -19,9 +19,6 @@
     justify-content: space-evenly;
 }
 
-/*.project-box {*/
-
-/*}*/
 
 .project-card {
     flex-grow: 1;
@@ -77,12 +74,12 @@
     transform: scale(1.02);
 }
 
-@media all and (max-width: 768px){
-    .project-section-name {
-        font-size: 8vw;
-        font-family: Arial, sans-serif;
-    }
-}
+/*@media all and (max-width: 768px){*/
+/*    .project-section-name {*/
+/*        font-size: 8vw;*/
+/*        font-family: Arial, sans-serif;*/
+/*    }*/
+/*}*/
 
 @media all and (max-width: 480px){
     .project-section-name {

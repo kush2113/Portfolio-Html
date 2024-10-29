@@ -9,10 +9,13 @@
 
 
 .about-topic-section {
-    font-size: 5vw;
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: Arial, sans-serif;
-    color: white;
+    font-size: 4em;
 }
 
 .about-section {
@@ -31,8 +34,10 @@
     justify-content: flex-end;
 }
 #button-cv {
+    font-size: 0.9em;
+    color: white;
     box-shadow: 0 0px 19px 2px green;
-    background-color: green;
+    background-color: black;
     transition: 0.2s ease;
     border-radius: 28px;
     width: 262px;
@@ -40,6 +45,7 @@
 
 }
 #button-cv:hover {
+    background: #0e7910;
     box-shadow: red 0 0 2px, 0 0 25px red;
     transform: scale(1.02);
 }
@@ -69,7 +75,7 @@
 
     .about-topic-section {
         font-size: 12vw;
-        color: white;
+        font-family: Arial, sans-serif;
     }
 
     .about-name {

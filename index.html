@@ -21,7 +21,7 @@
 
 
 
-    <link href="/https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <title>Title</title>
@@ -53,14 +53,14 @@
         </div>
             <div class="header-nav-links">
 
-                <div class="link"><a >Home</a></div>
-                <div class="link"><a>About</a></div>
-                <div class="link"><a>Education</a></div>
-                <div class="link"><a>Assignment</a></div>
-                <div class="link"><a>Skills</a></div>
-                <div class="link"><a>Projects</a></div>
-                <div class="link"><a>My Service</a></div>
-                <div class="link"><a>Contact Me</a></div>
+                <div class="link"><a href="#hero-section">Home</a></div>
+                <div class="link"><a href="#about-page">About</a></div>
+                <div class="link"><a href="#education-page">Education</a></div>
+                <div class="link"><a href="#assignment-page">Assignment</a></div>
+                <div class="link"><a href="#skills-page">Skills</a></div>
+                <div class="link"><a href="#projects-page">Projects</a></div>
+                <div class="link"><a href="#my-service-page">My Service</a></div>
+                <div class="link"><a href="#contact-page">Contact Me</a></div>
             </div>
 <!--        </div>-->
              <i class="fa-solid fa-bars hamburg"></i>
@@ -82,16 +82,17 @@
 </header>
 
 <!--  Hero section-->
-<main id="hero-section">
+<main id="hero-section" >
     <section id="home-section">
         <div  class="image">
-            <img id="home-section-img" src="assets/images/gammak.png">
+            <img  data-aos="fade-up"
+                  data-aos-duration="3000" id="home-section-img" src="assets/images/gammak.png">
         </div>
 
         <div class="content">
-            <div >Hello, I’m</div>
+            <div  >Hello, I’m</div>
             <div>Kushan</div>
-            <div class="typewriter">Front-end Development | <span class="typewriter-text"></span></div>
+            <div class="typewriter">Front-end Developer | <span class="typewriter-text"></span></div>
 
             <div class="card">
                 <a class="socialContainer containerOne" href="#">
@@ -119,14 +120,15 @@
 
 
 <!--  About section-->
-<main class="about">
+<main class="about" id="about-page">
     <div class="about-topic-section">About me</div>
     <section class="about-section">
         <section class="about-name-section">
             <div class="about-name">I’m</div>
             <div class="about-name">Kushan Damitha</div>
             <div id="about-par">
-                <p>
+                <p data-aos="fade-up"
+                   data-aos-duration="3000">
                     I am currently pursuing a Diploma in Software Engineering.
                     With a strong passion for technology and problem-solving,
                     I am eager to apply my skills and knowledge to real-world
@@ -135,102 +137,119 @@
             </div>
         </section>
         <section class="download-cv-button">
-            <button id="button-cv">Download CV</button>
+            <button data-aos="fade-up"
+                    data-aos-duration="3000" id="button-cv">Download CV</button>
         </section>
     </section>
 </main>
 
 
 <!--  education section-->
-<main class="education">
-        <h1 id="education-section-name">Education</h1>
+<main class="education" id="education-page">
+        <div id="education-section-name">Education</div>
 
-<section id="education-section" >
-
-    <div class="smc">
-        <img class="smc-logo" src="/assets/images/img_19.png"  title="SMC" alt="logo" width="100px" height="100px" >
-        <p class="education-par2">I got my basic education from
-            St.Mary's College,Mathugama and I have successfully passed G.C.E O/L and G.C.E A/L</p>
-    </div>
-
-    <div class="smc">
-        <img class="smc-logo" src="/assets/images/img_20.png"  title="SMC" alt="logo" width="100px" height="100px" >
-        <p class="education-par2">  Good understanding of programming languages
-            (Java, Python etc), query languages(MY SQL, HQL),
-            software design tools,
-            UI/UX design tools (Figma) and web designing.
-            Learning about modern software technologies
-            that need to be known more</p>
-    </div>
-</section>
+        <section class="education-section" >
+          <div class="education-tag">
+              <img class="logo" src="/assets/images/img_20.png"  title="SMC" alt="logo">
+                 <div class="university">University</div>
+              <p>B.Tech in Computer Science and Engineering</p>
+          </div>
+          <div class="education-tag">
+             <img class="logo" src="/assets/images/img_19.png"  title="SMC" alt="logo"  >
+                <div class="university">University</div>
+             <p>B.Tech in Computer Science and Engineering</p>
+          </div>
+        </section>
+        <section class="education-section">
+          <div class="education-tag">
+             <img class="logo" src="/assets/images/img_19.png"  title="SMC" alt="logo"  >
+               <div class="university">University</div>
+             <p>B.Tech in Computer Science and Engineering</p>
+          </div>
+        </section>
 </main>
 
-
 <!--  Assignment section-->
-<main class="assignment">
+<main class="assignment" id="assignment-page">
          <div  class="assignment-section-name">Assignments</div>
 
         <section class="assignment-section">
-            <div class="assignment-card">
+            <div data-aos="zoom-in" class="assignment-card">
                 <div class="lll">Assignment 01</div>
                 <div class="content-as">
-                    <h3>Title</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <h3>My Portfolio</h3>
+                    <p>Implement and make the structure of my web site using HTML elements.</p>
+                    <a  class="preview-button">Live Demo</a>
+                    <a class="preview-button">Source Code</a>
                 </div>
             </div>
-            <div class="assignment-card">
+            <div data-aos="zoom-in" class="assignment-card">
                 <div class="lll">Assignment 02</div>
                 <div class="content-as">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <a class="preview-button">Live Demo</a>
+                    <a class="preview-button">Source Code</a>
                 </div>
             </div>
-            <div class="assignment-card">
+            <div data-aos="zoom-in" class="assignment-card">
                 <div class="lll">Assignment 03</div>
                 <div class="content-as">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <a class="preview-button">Live Demo</a>
+                    <a class="preview-button">Source Code</a>
                 </div>
             </div>
         </section>
 
-        <section class="assignment-section">
-            <div class="assignment-card" >
+        <section  class="assignment-section">
+            <div data-aos="zoom-in" class="assignment-card" >
                 <div class="lll">Assignment 04</div>
                 <div class="content-as">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <a class="preview-button">Live Demo</a>
+                    <a class="preview-button">Source Code</a>
                 </div>
             </div>
-            <div class="assignment-card">
+            <div data-aos="zoom-in" class="assignment-card">
                 <div class="lll">Assignment 05</div>
                 <div class="content-as">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <a class="preview-button">Live Demo</a>
+                    <a class="preview-button">Source Code</a>
                 </div>
             </div>
-            <div class="assignment-card">
+            <div data-aos="zoom-in" class="assignment-card">
                 <div class="lll">Assignment 06</div>
                 <div class="content-as">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <a class="preview-button">Live Demo</a>
+                    <a class="preview-button">Source Code</a>
                 </div>
             </div>
         </section>
 
         <section class="assignment-section">
-            <div class="assignment-card">
+            <div data-aos="zoom-in" class="assignment-card">
                 <div class="lll">Assignment 07</div>
                 <div class="content-as">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <a class="preview-button">Live Demo</a>
+                    <a class="preview-button">Source Code</a>
                 </div>
             </div>
-            <div class="assignment-card">
+            <div data-aos="zoom-in" class="assignment-card">
                 <div class="lll">Assignment 08</div>
                 <div class="content-as">
                     <h3>Title</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur </p>
+                    <a  class="preview-button">Live Demo</a>
+                    <a class="preview-button">Source Code</a>
                 </div>
             </div>
         </section>
@@ -238,13 +257,13 @@
 
 
 <!--  Skills Section-->
-<main class="skill">
+<main class="skill" id="skills-page">
     <div  class="skill-section-name">Skills</div>
 
     <section class="skills-section">
         <div class="skill-content">
             <div class="skill-card">
-                <div class="skill-circle" style=" --num:95" >
+                <div  class="skill-circle" style=" --num:95" >
                     <div class="dot"></div>
                     <svg class="skill-svg">
                         <circle class="svg-circle" cx="70" cy="70" r="70"  ></circle>
@@ -257,7 +276,7 @@
                 </div>
             </div>
             <div class="skill-card">
-                <div class="skill-circle" style=" --num:87" >
+                <div  class="skill-circle" style=" --num:87" >
                     <div class="dot"></div>
                     <svg class="skill-svg">
                         <circle class="svg-circle" cx="70" cy="70" r="70"  ></circle>
@@ -274,7 +293,7 @@
         <section class="skills-section">
             <div class="skill-content">
             <div class="skill-card">
-                <div class="skill-circle" style=" --num:70" >
+                <div   class="skill-circle" style=" --num:70" >
                     <div class="dot"></div>
                     <svg class="skill-svg">
                         <circle class="svg-circle" cx="70" cy="70" r="70"  ></circle>
@@ -305,79 +324,35 @@
 </main>
 
 
-<!--            <div class="skills-image">-->
-<!--                <img class="figma" type="image" src="/assets/images/img.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--                <div class="skills-title">Figma</div>-->
-<!--            </div>-->
-<!--            <div class="skills-image">-->
-<!--                <img class="figma" type="image" src="/assets/images/img_1.png" alt="image" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--                <div class="skills-title">Github</div>-->
-<!--            </div>-->
-<!--            <div class="skills-image">-->
-<!--                <img class="figma" type="image" src="/assets/images/img_2.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--                <div class="skills-title">Vs Code</div>-->
-<!--            </div>-->
-<!--        </div>-->
-
-<!--        <div class="skill-content">-->
-<!--            <div class="skills-image">-->
-<!--                <img class="figma" type="image" src="/assets/images/img_3.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--                <div class="skills-title">Java</div>-->
-<!--            </div>-->
-<!--            <div class="skills-image">-->
-<!--                <img class="figma" type="image" src="/assets/images/img_4.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--                <div class="skills-title">MySql</div>-->
-<!--            </div>-->
-<!--            <div class="skills-image">-->
-<!--                <img class="figma" type="image" src="/assets/images/img_5.png" alt="image" title="Kushan" width="90px" height="90px" >-->
-<!--                <div class="skills-title">HTML</div>-->
-<!--            </div>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--  Project Section-->
-<main class="projects" >
+<main class="projects" id="projects-page">
 
     <div class="project-section-name">Project</div>
 
     <section  class="project-section" >
-            <div class="project-card">
+            <div  class="project-card">
                 <img class="project-image" src="assets/images/Screenshot%201.png">
                 <div class="project-name">MVC Architecture Software Project</div>
-                <div class="btn">Review Project</div>
+                <a href="https://github.com/kush2113/sloonManagementSystem.git" class="btn">Review Project</a>
             </div>
 
-            <div class="project-card">
+            <div  class="project-card">
                 <img class="project-image" src="assets/images/Screenshot%202.png">
                 <div class="project-name">Layered Architecture Software Project</div>
-                <div class="btn">Review Project</div>
+                <a href="https://github.com/kush2113/SALON-PROJECT-WITH-ARCHITECTURE.git" class="btn">Review Project</a>
             </div >
 
-            <div class="project-card">
+            <div  class="project-card">
                 <img class="project-image" src="assets/images/Screenshot%202.png">
                 <div class="project-name">Layered Architecture Software Project</div>
-                <div class="btn">Review Project</div>
+                <a href="" class="btn">Review Project</a>
+
             </div>
     </section>
 </main>
 
 <!--  Services Section-->
-<main class="services" >
+<main class="services" id="my-service-page">
     <div class="services-section-name">My Services</div>
 
     <section class="services-section" >
@@ -398,7 +373,7 @@
 </main>
 
 <!--  Contact Section-->
-<main class="contact">
+<main class="contact" id="contact-page" >
     <div class="contact-section-name">Contact Me</div>
     <section class="contact-section">
 <!--        <form class="contact-form">-->
@@ -426,11 +401,10 @@
 
 
 <footer>copyright © 2024 developed by Kushan | All rights reserved</footer>
-<script src="/https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
 </script>
-
 <script>
     function toggleSidebar() {
         const sidebar = document.getElementById('sidebar');

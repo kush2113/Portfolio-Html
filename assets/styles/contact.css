@@ -66,12 +66,12 @@
     flex-direction: column;
 }
 
-@media all and (max-width: 768px){
-    .contact-section-name {
-        font-size: 8vw;
-        font-family: Arial, sans-serif;
-    }
-}
+/*@media all and (max-width: 768px){*/
+/*    .contact-section-name {*/
+/*        font-size: 8vw;*/
+/*        font-family: Arial, sans-serif;*/
+/*    }*/
+/*}*/
 
 @media all and (max-width: 480px) {
 

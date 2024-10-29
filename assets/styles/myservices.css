@@ -75,12 +75,12 @@
 }
 
 
-@media all and (max-width: 768px){
-    .services-section-name {
-        font-size: 8vw;
-        font-family: Arial, sans-serif;
-    }
-}
+/*@media all and (max-width: 768px){*/
+/*    .services-section-name {*/
+/*        font-size: 8vw;*/
+/*        font-family: Arial, sans-serif;*/
+/*    }*/
+/*}*/
 
 /*@media all and (max-width: 320px){*/
 /*    .services-box {*/

@@ -43,6 +43,8 @@
 }
 
 .lll {
+    position: relative;
+    top: 29px;
     display: flex;
     text-align: center;
     height: 60px;
@@ -92,11 +94,43 @@
     line-height: 1.4;
 }
 
+.preview-button {
+    margin: 4px;
+    display: flex;
+    box-shadow: 0 0 20px green;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    border: 1px solid green;
+    width: 8vw;
+    height: 4vw;
+    transition: 0.4s ease;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.preview-button:hover {
+    transform: scale(1.03);
+    background-color: green;
+
+}
+@media all and (max-width: 1024px){
+    .preview-button {
+        width: 11vw;
+        height: 4vw;
+    }
+
+}
 
 @media all and (max-width: 768px){
-    .assignment-section-name {
-        font-size: 8vw;
-        font-family: Arial, sans-serif;
+    /*.assignment-section-name {*/
+    /*    font-size: 8vw;*/
+    /*    font-family: Arial, sans-serif;*/
+    /*}*/
+    .preview-button {
+        width: 15vw;
+        height: 6vw;
     }
 }
 
@@ -107,5 +141,17 @@
     .assignment-section-name {
         font-size: 12vw;
         font-family: Arial, sans-serif;
+    }
+    .preview-button {
+        width: 26vw;
+        height: 10vw;
+    }
+}
+
+
+@media all and (max-width: 320px){
+    .preview-button {
+        width: 34vw;
+        height: 11vw;
     }
 }
