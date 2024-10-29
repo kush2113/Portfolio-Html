@@ -23,9 +23,9 @@
 }
 
 
-.image #home-section-img:hover{
-    animation: animate 1.5s ease-in-out infinite;
-}
+/*.image #home-section-img:hover{*/
+/*    animation: animate 1.5s ease-in-out infinite;*/
+/*}*/
 
 .card {
     margin-top: -14px;
