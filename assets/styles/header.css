@@ -154,6 +154,25 @@
 
 }
 
+/*@media all and (max-width: 1024px) {*/
+
+/*    .menu-icon {*/
+/*        margin-right: -219px;*/
+
+/*    }*/
+/*}*/
+
+@media all and (max-width: 1440px){
+
+    .header-nav-links {
+        margin-right: -219px;
+
+    }
+    /*.menu-links {*/
+    /*    width: 318px;*/
+    /*}*/
+}
+
 
 @media all and (max-width: 480px){
     #sidebar.active {
@@ -176,6 +195,8 @@
         width: 318px;
     }
 }
+
+
 
 /*@media all and (max-width: 375px){*/
 /*    #sidebar.active {*/
